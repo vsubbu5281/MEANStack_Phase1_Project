@@ -12,8 +12,8 @@ function addData() {
     var myPTagContent2 = document.createTextNode(desc);
     
     // Adding the attribute for p tag
-    myPTag1.setAttribute("style","color:black;font-size:12px;");
-    myPTag2.setAttribute("style","color:black;font-size:12px;");
+    myPTag1.setAttribute("style","color:black;font-size:18px;");
+    myPTag2.setAttribute("style","color:black;font-size:18px;");
     
     myPTag1.setAttribute("id",count);
     myPTag2.setAttribute("id",count);

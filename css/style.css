@@ -1,3 +1,7 @@
+.pageHeader {
+    color: blue
+}
+
 .myClass{
     background-color: cadetblue;
     border: red solid 2px;
@@ -7,6 +11,13 @@
     background-color:seagreen;
     border:blue solid 2px;
 }
+
+a {
+    color: var(--theme-link-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
 
 .fontHeader{
     font-weight: bold;
@@ -20,9 +31,20 @@
 .row-flex {
     display: flex;
     flex-wrap: wrap;
-  }
+}
 
 .col-container {
     display: flex; /* this is all you need to get an equal height grid */
-  }
+}
 
+body{
+    width:100%;
+    height: 100%;
+    background-image: url("../assets/notepadCoffee.jpg");
+    background-position: center;
+    background-size: cover; /*100% 100%; */
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+  
