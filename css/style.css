@@ -1,0 +1,28 @@
+.myClass{
+    background-color: cadetblue;
+    border: red solid 2px;
+}
+
+.myClass1{
+    background-color:seagreen;
+    border:blue solid 2px;
+}
+
+.fontHeader{
+    font-weight: bold;
+}
+
+.row-margin-05 { margin-top: 0.5em; }
+.row-margin-10 { margin-top: 1.0em; }
+.row-margin-20 { margin-top: 2.0em; }
+.row-margin-30 { margin-top: 3.0em; }
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.col-container {
+    display: flex; /* this is all you need to get an equal height grid */
+  }
+
